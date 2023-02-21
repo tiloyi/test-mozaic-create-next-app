@@ -6,8 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mozaic-ds/react": "^1.6.4",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "sass": "^1.58.3"
   }
 }

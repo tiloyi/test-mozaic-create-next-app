@@ -1,0 +1,12 @@
+$local-rem-value: 10;
+@import "settings-tools/all-settings";
+@import "components/c.button";
+
+html {
+  font-size: 10px;
+  font-size: 62.5%;
+}
+
+.mc-button {
+  margin-bottom: $mu075;
+}
