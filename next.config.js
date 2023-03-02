@@ -1,10 +1,12 @@
-const sassConfigMozaic = require("@mozaic-ds/css-dev-tools/sassConfig");
+const includePaths =
+  require("@mozaic-ds/css-dev-tools/sassConfig").includePaths;
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  sassOptions: { ...sassConfigMozaic },
+  sassOptions: {
+    includePaths: [...includePaths],
+  },
 };
 
 module.exports = nextConfig;

@@ -18,7 +18,7 @@ export default function Home() {
         <h2>
           Read <Link href="/posts/first-post">this page!</Link>
         </h2>
-        <Button size="m" variant="solid" width="fit">
+        <Button size="m" width="full" href="https://mozaic.adeo.cloud/">
           Button
         </Button>
 
