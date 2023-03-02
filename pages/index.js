@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import { Button } from "@mozaic-ds/react";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
         <h2>
           Read <Link href="/posts/first-post">this page!</Link>
         </h2>
+        <Button size="m" width="full" href="https://mozaic.adeo.cloud/">
+          Button
+        </Button>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
